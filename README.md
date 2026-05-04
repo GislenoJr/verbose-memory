@@ -12,7 +12,7 @@ Objetivo: registrar evolução contínua e aprendizado prático.
 
 ---
 
-## Estrutura do Repositório
+## Exemplo de como será a Estrutura do Repositório 
 
 ```
 verbose-memory/
@@ -25,8 +25,6 @@ verbose-memory/
 │
 ├── javascript/
 │
-├── docs/   (opcional)
-│   └── git-comandos.md
 │
 └── README.md
 ```
