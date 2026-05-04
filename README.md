@@ -17,14 +17,21 @@ Objetivo: registrar evolução contínua e aprendizado prático.
 ```
 verbose-memory/
 │
-├── html/
-│   ├── aula1/
-│   └── exercicio-form/
-│
-├── css/
+├── html-css/
+│   ├── aula1-basico/
+│   ├── formulario/
+│   └── landing-page/
 │
 ├── javascript/
+│   ├── fundamentos/
+│   ├── dom-manipulation/
+│   └── mini-projeto/
 │
+├── fullstack/
+│   └── api-simples/
+│
+├── docs/
+│   └── anotacoes.md
 │
 └── README.md
 ```
