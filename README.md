@@ -27,11 +27,9 @@ verbose-memory/
 │   ├── dom-manipulation/
 │   └── mini-projeto/
 │
-├── fullstack/
+├── primeiro_projeto/
 │   └── api-simples/
 │
-├── docs/
-│   └── anotacoes.md
 │
 └── README.md
 ```
