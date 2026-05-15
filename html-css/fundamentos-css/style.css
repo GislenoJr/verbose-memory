@@ -56,6 +56,10 @@ element - 1
 
 */
 
+p#text.green{
+    color: black;
+}
+
 #text {
     color: blue;
 }
@@ -68,3 +72,76 @@ p {
     color: red;
 }
 
+/*
+Mais Especifico
+
+- Style (Não é interessante usar)
+- !important (Não é interessante usar)
+
+*/
+
+#title{
+    font-size: 12px !important;
+}
+
+/*
+#Valores e unidades de medidas
+
+Cada propriedade possui valores
+'property: value'
+
+<data-type>
+
+>Estudo constante a fim de entender as propriedades e seus valores
+
+
+
+h2 {
+    color: blue;  /color/ 
+    font-size: 32px;  /length/ 
+    letter-spacing: 2; /number/
+    text-transform: uppercase; /keyword/
+}
+*/
+
+/*
+Seletores
+
+- type | element  tag
+- id
+- class
+- atributo
+-universal
+
+*/
+
+/*
+Combinators 
+
+- Descendent
+  artice p
+- List
+  span, mark
+- Next sibling
+  h2 + p
+- Child
+  aside > ul
+
+*/
+
+article p {
+    color: red;
+}
+
+span, mark{
+    color: rgb(29, 182, 50);
+}
+
+h2 + p {
+    color: brown;
+}
+
+
+aside > ul {
+    margin-top: 60px;
+}
