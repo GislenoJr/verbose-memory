@@ -1,0 +1,70 @@
+/*
+#CSS
+Cascading Stylesheet
+
+---
+
+## O que é CSS
+
+- Folha de estilos em cascata
+- Propriedades e valor
+- Estilos para o HTMl
+- Arquivos '.css'
+
+# Anatomia 
+
+- Declarações 
+- Seletor
+- {} Contexto
+- Propriedades
+- Valor das Propriedades
+
+*/
+
+h1 {
+    color: blue;
+    font-size: 60px;
+    letter-spacing: 2;
+    text-transform: uppercase;
+}
+
+/*
+# Em Cascata 
+
+- Cascata
+- Hierarquia de Regras
+
+*/
+
+p {
+    color: violet;
+}
+
+.yellow {
+    color: yellow;
+}
+
+/*
+#Especificações 
+
+- Cada Seletor tem um peso
+- Soma dos pesos faz a declaração ser aplicada
+
+#id - 100
+.class -10
+element - 1
+
+*/
+
+#text {
+    color: blue;
+}
+
+.green{
+    color: green;
+}
+
+p {
+    color: red;
+}
+
